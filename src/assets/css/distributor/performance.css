@@ -1,0 +1,167 @@
+.Performance section {
+  text-align: center;
+}
+
+.Performance .card {
+  border-radius: 50px !important;
+}
+
+.Performance .card-body {
+  background: linear-gradient(to top right, #060628, #1f245a, #682359);
+  border-radius: 50px !important;
+}
+
+.Performance .sec-row {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80em;
+  padding: 1em;
+}
+
+.Performance h1,
+.Performance h2,
+.Performance h3,
+.Performance h4,
+.Performance h5,
+.Performance h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.Performance p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 36em;
+  text-align: center;
+}
+.Performance svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+.Performance svg.radial-progress circle {
+  fill: rgba(0, 0, 0, 0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129; /* Circumference */
+  stroke-width: 10;
+}
+
+.Performance svg.radial-progress circle.incomplete {
+  opacity: 0.25;
+}
+
+.Performance svg.radial-progress circle.complete {
+  stroke-dasharray: 219.91148575129; /* Circumference */
+}
+
+.Performance svg.radial-progress text {
+  fill: #fff;
+  font: 400 1em/1 "Oswald", sans-serif;
+  text-anchor: middle;
+}
+
+/*** COLORS ***/
+/* Primary */
+
+.Performance svg.radial-progress:nth-of-type(6n + 1) circle {
+  stroke: #a2ed56;
+}
+
+/* Secondary */
+
+.Performance svg.radial-progress:nth-of-type(6n + 2) circle {
+  stroke: #83e4e2;
+}
+
+/* Tertiary */
+
+.Performance svg.radial-progress:nth-of-type(6n + 3) circle {
+  stroke: #fd6470;
+}
+
+/* Quaternary */
+
+.Performance svg.radial-progress:nth-of-type(6n + 4) circle {
+  stroke: #fca858;
+}
+
+/* Quinary */
+
+.Performance svg.radial-progress:nth-of-type(6n + 5) circle {
+  stroke: #fddc32;
+}
+.Performance a:hover {
+  cursor: pointer;
+}
+.Performance .infoTest{
+  --color-light: white;
+  --color-dark: #212121;
+  --color-signal: #fab700;
+  --color-background: var(--color-light);
+  --color-text: var(--color-dark);
+  --color-accent: var(--color-signal);
+  --size-bezel: 0.5rem;
+  --size-radius: 4px;
+  line-height: 1.4;
+  font-family: 'Inter', sans-serif;
+  font-size: calc(.6rem + .4vw);
+  color: var(--color-text);
+  background: var(--color-background);
+  font-weight: 300;
+  padding: 0 calc(var(--size-bezel) * 3);
+}
+
+.PerformanceModal {
+  --color-light: white;
+  --color-dark: #212121;
+  --color-signal: #fab700;
+  --color-background: var(--color-light);
+  --color-text: var(--color-dark);
+  --color-accent: var(--color-signal);
+  --size-bezel: 0.5rem;
+  --size-radius: 4px;
+  line-height: 1.4;
+  font-family: 'Inter', sans-serif;
+  font-size: calc(.6rem + .4vw);
+  color: var(--color-text);
+  background: var(--color-background);
+  font-weight: 300;
+  padding: 0 calc(var(--size-bezel) * 3);
+}
+
+.PerformanceModal .input {
+  position: relative;
+}
+.PerformanceModal .input__label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+  margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * .5);
+  background: pink;
+  white-space: nowrap;
+  transform: translate(0, 0);
+  transform-origin: 0 0;
+  background: var(--color-background);
+  transition: transform 120ms ease-in;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.PerformanceModal .input__field {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border: 3px solid currentColor;
+  padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+  color: currentColor;
+  background: transparent;
+  border-radius: var(--size-radius);
+}
+.PerformanceModal .input__field:focus + .input__label, .input__field:not(:placeholder-shown) + .input__label {
+  transform: translate(0.25rem, -65%) scale(0.8);
+  color: var(--color-accent);
+}

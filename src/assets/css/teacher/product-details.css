@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.ProductDetails .card:not(.similar-products .card) {
+  background-color: #fff;
+  padding: 14px;
+  border: none;
+}
+
+.ProductDetails .demo {
+  width: 100%;
+}
+
+.ProductDetails .demo ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.ProductDetails #lightSlider li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.ProductDetails #lightSlider img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.ProductDetails .stars i {
+  color: #f6d151;
+}
+
+.ProductDetails .stars span {
+  font-size: 13px;
+}
+
+.ProductDetails hr {
+  color: #d4d4d4;
+}
+
+.ProductDetails .badges .badge {
+  padding: 5px !important;
+  padding-bottom: 6px !important;
+}
+
+.ProductDetails .badges .badge i {
+  font-size: 10px;
+}
+
+.ProductDetails .profile-image {
+  width: 35px;
+}
+
+.ProductDetails .comment-ratings i {
+  font-size: 13px;
+}
+
+.ProductDetails .username {
+  font-size: 12px;
+}
+
+.ProductDetails .comment-profile {
+  line-height: 17px;
+}
+
+.ProductDetails .date span {
+  font-size: 12px;
+}
+
+.ProductDetails .p-ratings i {
+  color: #f6d151;
+  font-size: 12px;
+}
+
+.ProductDetails .btn-long {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.ProductDetails .buttons {
+  margin-top: 15px;
+}
+
+.ProductDetails .buttons .btn {
+  height: 46px;
+  margin-left: 5px;
+}
+
+.ProductDetails .buttons .cart {
+  border-color: #0b9d8a;
+  color: #0b9d8a;
+}
+
+.ProductDetails .buttons .cart:hover {
+  background-color: #0b9d8a !important;
+  color: #fff;
+}
+
+.ProductDetails .buttons .buy {
+  color: #fff;
+  background-color: #0b9d8a;
+  border-color: #0b9d8a;
+}
+
+.ProductDetails .buttons .buy:focus,
+.buy:active {
+  color: #fff !important;
+  background-color: #0b9d8a !important;
+  border-color: #0b9d8a !important;
+  box-shadow: none;
+}
+
+.ProductDetails .buttons .buy:hover {
+  color: #fff;
+  background-color: #0b9d8a;
+  border-color: #0b9d8a;
+}
+
+.ProductDetails .buttons .wishlist {
+  background-color: #fff;
+  border-color: #ff7676;
+}
+
+.ProductDetails .buttons .wishlist:hover {
+  background-color: #e86464;
+  border-color: #e86464;
+  color: #fff;
+}
+
+.ProductDetails .buttons .wishlist:hover i {
+  color: #fff;
+}
+
+.ProductDetails .buttons .wishlist i {
+  color: #ff7676;
+}
+
+.ProductDetails .comment-ratings i {
+  color: #f6d151;
+}
+
+.ProductDetails .followers {
+  font-size: 9px;
+  color: #d6d4d4;
+}
+
+.ProductDetails .store-image {
+  width: 42px;
+}
+
+.ProductDetails .dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+.ProductDetails .bullet-text {
+  font-size: 12px;
+}
+
+.ProductDetails label.radio {
+  cursor: pointer;
+}
+
+.ProductDetails label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.ProductDetails label.radio span {
+  border: 2px solid #8f37aa;
+  display: inline-block;
+  color: #8f37aa;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-transform: uppercase;
+  transition: 0.5s all;
+}
+
+.ProductDetails label.radio .red {
+  background-color: red;
+  border-color: red;
+}
+.ProductDetails .favored{
+  background-color: #e86464 !important;
+  border-color: #e86464 !important;
+  color: #fff !important;
+}
+.ProductDetails .favored i {
+  color: #fff !important;
+}
+.ProductDetails .cart-added{
+  color: white !important;
+  background-color: #0b9d8a;
+}
+
+.ProductDetails label.radio .blue {
+  background-color: blue;
+  border-color: blue;
+}
+
+.ProductDetails label.radio .green {
+  background-color: green;
+  border-color: green;
+}
+
+.ProductDetails label.radio .orange {
+  background-color: orange;
+  border-color: orange;
+}
+
+.ProductDetails label.radio input:checked + span {
+  color: #fff;
+  position: relative;
+}
+
+.ProductDetails label.radio input:checked + span::before {
+  opacity: 1;
+  content: "\2713";
+  position: absolute;
+  font-size: 13px;
+  font-weight: bold;
+  left: 4px;
+}
+
+.ProductDetails .card-body:not(.similar-products .card-body) {
+  padding: 0.3rem 0.3rem 0.2rem;
+}

@@ -1,0 +1,233 @@
+.FilterSearch #orange,
+select,
+.filter .btn {
+  color: orange;
+}
+
+.FilterSearch .form-group {
+  margin-bottom: 5px;
+}
+
+.FilterSearch label {
+  padding-left: 10px;
+}
+
+.FilterSearch .form-group:last-child {
+  margin-bottom: 0;
+}
+
+.FilterSearch h6 {
+  margin-bottom: 0px;
+}
+
+.FilterSearch #sort {
+  outline: none;
+  border: none;
+}
+
+.FilterSearch .filter .btn {
+  border: 1px solid orange;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.FilterSearch .filter .btn:hover {
+  color: #fff;
+  background-color: orange;
+}
+
+
+@media (min-width: 1200px) {
+  .FilterSearch .text {
+    display: none;
+  }
+
+  .FilterSearch  #sidebar {
+    width: 30%;
+    padding: 20px;
+    float: left;
+  }
+
+  .FilterSearch del {
+    padding-right: 2px;
+  }
+
+  .FilterSearch .filter {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .FilterSearch .text {
+    display: none;
+  }
+
+  .FilterSearch #sidebar {
+    width: 30%;
+    padding: 20px;
+    float: left;
+  }
+
+  .FilterSearch .price {
+    width: 99px;
+  }
+
+  .FilterSearch .filter {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .FilterSearch .text {
+    display: none;
+  }
+
+  .FilterSearch  #sidebar {
+    width: 35%;
+    padding: 20px;
+    float: left;
+  }
+
+  .FilterSearch .filter{
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .FilterSearch .text {
+    display: none;
+  }
+
+  .FilterSearch #sidebar {
+    width: 40%;
+    padding: 20px;
+    float: left;
+  }
+
+
+  .FilterSearch #sorting span,
+  #res {
+    font-size: 14px;
+  }
+
+  .FilterSearch .filter,
+  #mobile-filter {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+ 
+  .FilterSearch .filter {
+    margin-left: 70%;
+    margin-top: 2%;
+  }
+
+  .FilterSearch #sorting,
+  #res {
+    font-size: 12px;
+    margin-top: 2%;
+  }
+}
+/********************************************************************/
+.FilterSearch #price {
+    height: 45px
+}
+
+.FilterSearch .middle {
+    position: relative;
+    width: 100%;
+    margin-top: 25px
+}
+
+.FilterSearch .slider {
+    position: relative;
+    z-index: 1;
+    height: 5px;
+    margin: 0 15px
+}
+
+.FilterSearch .slider>.track {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+    background-color: #ddd
+}
+
+.FilterSearch .slider>.range {
+    position: absolute;
+    z-index: 2;
+    left: 25%;
+    right: 25%;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+    background-color: #36a31b
+}
+
+.FilterSearch .slider>.thumb {
+    position: absolute;
+    top: 2px;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    background-color: #36a31b;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(63, 204, 75, 0.705);
+    transition: box-shadow .3s ease-in-out
+}
+
+.FilterSearch .slider>.thumb::after {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 28%;
+    top: 30%;
+    border-radius: 50%;
+    content: '';
+    background-color: #fff
+}
+
+.FilterSearch .slider>.thumb.left {
+    left: 25%;
+    transform: translate(-15px, -10px)
+}
+
+.FilterSearch .slider>.thumb.right {
+    right: 25%;
+    transform: translate(15px, -10px)
+}
+
+.FilterSearch .slider>.thumb.hover {
+    box-shadow: 0 0 0 10px rgba(125, 230, 134, 0.507)
+}
+
+.FilterSearch .slider>.thumb.active {
+    box-shadow: 0 0 0 10px rgba(63, 204, 75, 0.623)
+}
+
+.FilterSearch input[type=range] {
+    position: absolute;
+    pointer-events: none;
+    -webkit-appearance: none;
+    z-index: 2;
+    height: 10px;
+    width: 100%;
+    opacity: 0
+}
+
+.FilterSearch input[type=range]::-webkit-slider-thumb {
+    pointer-events: all;
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    border: 0 none;
+    background-color: red;
+    -webkit-appearance: none
+}
+
+

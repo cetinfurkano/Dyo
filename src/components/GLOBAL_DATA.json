@@ -1,0 +1,40 @@
+{
+  "categoryNames": [
+    { "value":"1", "label": "Deneme Sınavları" },
+    { "value":"2", "label": "Test Kitapları" },
+    { "value":"3", "label": "Romanlar" },
+    { "value":"4", "label": "Çizgi Romanlar" },
+    { "value":"5", "label": "Sınava Hazırlık" }
+  ],
+  "educationTypes": [
+      {"value":"1", "label":"Lise"},
+      {"value":"2", "label":"İlkokul"},
+      {"value":"3", "label":"Ortaokul"},
+      {"value":"4", "label":"Okul Öncesi"}
+  ],
+  "subCategories": [
+    {"value":"1", "label":"Türkçe"},
+    {"value":"2", "label":"Matematik"},
+    {"value":"3", "label":"Yabancı Dil"},
+    {"value":"4", "label":"Fizik"},
+    {"value":"5", "label":"Kimya"},
+    {"value":"6", "label":"Biyoloji"},
+    {"value":"7", "label":"Tarih"}
+  ],
+  "novelCategories": [
+    {"value":"1", "label":"Macera"},
+    {"value":"2", "label":"Bilim Kurgu"},
+    {"value":"3", "label":"Tarihi"},
+    {"value":"4", "label":"Felsefi"},
+    {"value":"5", "label":"Biyografi"},
+    {"value":"6", "label":"Edebiyat"}
+  ],
+  "orderStates":[
+    {"value":"0", "label":"Bekliyor"},
+    {"value":"1", "label":"Tamamlandı"},
+    {"value":"2", "label":"Devam ediyor"},
+    {"value":"3", "label":"İptal edildi"},
+    {"value":"4", "label":"Kargoya verildi"},
+    {"value":"5", "label":"Kabul edildi"}
+  ]  
+}

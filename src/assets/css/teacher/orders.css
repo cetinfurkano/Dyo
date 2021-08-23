@@ -1,0 +1,48 @@
+.Orders .order-list .btn {
+  border-radius: 2px;
+  min-width: 121px;
+  font-size: 13px;
+  padding: 7px 0 7px 0;
+  margin: 2px;
+}
+
+.Orders .order-list img.mr-4 {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  border-radius: 2px;
+}
+.Orders .osahan-cart-item p.text-gray.float-right {
+  margin: 3px 0 0 0;
+  font-size: 12px;
+}
+.Orders .osahan-cart-item .food-item {
+  vertical-align: bottom;
+}
+
+.Orders .h1,
+.Orders .h2,
+.Orders .h3,
+.Orders .Orders .h4,
+.Orders .h5,
+.Orders .h6,
+.Orders h1,
+.Orders h2,
+.Orders h3,
+.Orders h4,
+.Orders h5,
+.Orders h6 {
+  color: #000000;
+}
+
+.Orders.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.Orders .rounded-pill {
+  border-radius: 50rem !important;
+}
+.Orders a:hover {
+  text-decoration: none;
+}

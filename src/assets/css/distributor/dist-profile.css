@@ -1,0 +1,102 @@
+.DistributorProfile .wrapper {
+  padding: 30px 50px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+.DistributorProfile h4 {
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+
+.DistributorProfile .img {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.DistributorProfile #img-section p,
+.DistributorProfile #deactivate p {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.DistributorProfile #img-section b,
+.DistributorProfile #img-section .btn,
+.DistributorProfile #deactivate b {
+  font-size: 14px;
+}
+
+.DistributorProfile label {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+  padding-left: 3px;
+}
+
+.DistributorProfile .form-control {
+  border-radius: 10px;
+}
+
+.DistributorProfile input[placeholder] {
+  font-weight: 500;
+}
+
+.DistributorProfile .form-control:focus {
+  box-shadow: none;
+  border: 1.5px solid #0779e4;
+}
+
+.DistributorProfile select {
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  height: 40px;
+  padding: 5px 10px;
+}
+
+.DistributorProfile select:focus {
+  outline: none;
+}
+
+.DistributorProfile .button {
+  background-color: #fff;
+  color: #0779e4;
+}
+
+.DistributorProfile .button:hover {
+  background-color: #0779e4;
+  color: #fff;
+}
+
+.DistributorProfile .btn-primary {
+  background-color: #0779e4;
+}
+
+.DistributorProfile .danger {
+  background-color: #fff;
+  color: #e20404;
+  border: 1px solid #ddd;
+}
+
+.DistributorProfile .danger:hover {
+  background-color: #e20404;
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .DistributorProfile .wrapper {
+    padding: 25px 20px;
+  }
+
+  .DistributorProfile #deactivate {
+    line-height: 18px;
+  }
+}
